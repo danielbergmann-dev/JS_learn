@@ -1,27 +1,16 @@
-function main() {
-  class Car {
-    constructor(brand, model, year) {
-      this.brand = brand;
-      this.model = model;
-      this.year = year;
-    }
+/*var divEle = document.createElement('div')
+divEle.innerHTML = 'Hello World'
+document.body.appendChild(divEle)
 
-    honk() {
-      console.log("Diese Auto hupt: " + this.brand + " " + this.model);
-    }
+var linkEle = document.createElement('a')
+linkEle.innerHTML = 'Click me'
+linkEle.href = 'https://www.google.com'
+document.body.appendChild(linkEle)
+*/
 
-    drive() {
-      console.log("Diese Auto fährt: " + this.brand + " " + this.model);
-    }
-  }
+var tableEle = document.createElement('table')
 
-  var myCar = new Car("Ford", "Mustang", 1969);
-  myCar.drive();
-  myCar.honk();
 
-  var myCar2 = new Car("VW", "Golf", 2018);
-  myCar2.drive();
-  myCar2.honk();
-}
+
 
 
